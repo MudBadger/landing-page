@@ -1,5 +1,5 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -75,6 +75,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding-bottom: 60px;
 }
 
 .icon {
@@ -84,14 +85,25 @@ button {
 }
 
 .icon-subtext {
-    flex: 1;
-    max-width: 150px;
     font-size: 18px;
     color: #1F2937;
+    text-align: center;
+    max-width: 155px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
 }

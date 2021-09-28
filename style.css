@@ -134,6 +134,7 @@ h2 {
     padding: 60px;
     margin: 60px 180px;
     border-radius: 10px;
+    flex-shrink: 1;
 }
 
 .box-button {

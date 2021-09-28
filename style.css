@@ -61,6 +61,7 @@ button {
     font-weight: 700;
     border: 0;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .content {
@@ -138,6 +139,7 @@ h2 {
 
 .box-button {
     border: 3px solid #f9faf8;
+    cursor: pointer;
 }
 
 h3 {

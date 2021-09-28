@@ -123,3 +123,32 @@ h2 {
     padding: 0 250px 80px 0px;
     margin: 0;
 }
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #f9faf8;
+    gap: 60px;
+    padding: 60px;
+    margin: 60px 180px;
+    border-radius: 10px;
+}
+
+.box-button {
+    border: 3px solid #f9faf8;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.box-text {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
